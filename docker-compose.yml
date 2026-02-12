@@ -1,9 +1,8 @@
 version: "3.9"
 
 services:
-  app:
+  epoch-agent:
     build: .
-    container_name: epoch_readme_agent
+    container_name: epoch-agent
     stdin_open: true
     tty: true
-    command: python -m app
